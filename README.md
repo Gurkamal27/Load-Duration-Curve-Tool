@@ -14,6 +14,6 @@ the itterations variable refers to the itterations per hour, a variable of 12 wo
 Answer 2
 
 
-## Screenshots
+## Application User Interface
 
 ![App Screenshot](UI.PNG)

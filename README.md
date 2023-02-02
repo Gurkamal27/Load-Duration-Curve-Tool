@@ -31,3 +31,7 @@ Required Modules
 ## Application User Interface
 
 ![App Screenshot](UI.PNG)
+
+## Acknowledgements
+
+ - [Plotting a Load-Duration Curve with Python](https://blog.finxter.com/plotting-a-load-duration-curve-with-python/)

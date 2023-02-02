@@ -5,7 +5,7 @@ The load duration curve is a vital tool that plays a significant role in the ana
 
 This tool provides the ability to generate both load duration curves and load profile for a given load. You are required to input three files and a folder location (load data, regional capacity and output sheet). 
 
-
+The load duration curve helps determine seasonal patterns of electricity demand, enabling the best time for maintenance or installations. It can be adjusted by season, year, and month, providing a comprehensive understanding of demand patterns. 
 
 ## FAQ
 

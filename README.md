@@ -38,7 +38,7 @@ Required Modules
 
 ## Application User Interface
 
-![App Screenshot](Testing/UI.PNG)
+![App Screenshot](Source/UI.PNG)
 
 ## Acknowledgements
 

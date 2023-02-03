@@ -22,6 +22,10 @@ The user has the option to input low, middle, and high demand test points, provi
 |:--------------:|:------:|:---------------------------:|:-----------------------:|:-----:|:-----:|:-----:|:------:|:-----:|:---------------------------------------------------------------------------------------:|:----------------------:|
 | GRM_CB9_A_Amps | 115.00 | 0.57                        | 59.39                   | 64.27 | 61.80 | 59.69 | 131.62 | 34.84 | ['August 2019', 'September 2019', 'March 2020'] | 16.62                  |
 
+<img src="Source/example_load_profile.png"  width="800" height="385">
+
+<img src="Source/example_load-duration_curve.png"  width="800" height="385">
+
 ## FAQ
 
 #### What files do i need?

@@ -15,7 +15,13 @@ The load duration curve helps determine seasonal patterns of electricity demand,
 The "clean data" function requires further development to meet the manual cleaning standards. However, the automatic correction of zero values is currently in place. By improving the accuracy and efficiency of the "clean data" function, the quality and reliability of the data used for analysis and decision making will be ensured.
 
 The user has the option to input low, middle, and high demand test points, providing flexibility in analyzing electricity demand patterns. This allows for a more detailed understanding of the electricity usage and provides a more accurate representation of the demand.
-## Output
+
+## Output (example)
+
+|     Feeder     |  Limit | Percentage Over   Limit (%) | Time Over Limit   (hrs) |  low  |  mid  |  high |   Max  |  Min  |                                     Dates Over Limit                                    | Magnitude over   limit |
+|:--------------:|:------:|:---------------------------:|:-----------------------:|:-----:|:-----:|:-----:|:------:|:-----:|:---------------------------------------------------------------------------------------:|:----------------------:|
+| GRM_CB9_A_Amps | 115.00 | 0.57                        | 59.39                   | 64.27 | 61.80 | 59.69 | 131.62 | 34.84 | ['August 2019', 'September 2019', 'March 2020'] | 16.62                  |
+
 ## FAQ
 
 #### What files do i need?

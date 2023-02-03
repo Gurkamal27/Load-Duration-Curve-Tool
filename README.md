@@ -3,14 +3,19 @@
 
 The load duration curve is a vital tool that plays a significant role in the analysis and planning of electric utility operations. It is a graphical representation of the frequency of the electricity load (or demand) over a specific period of time, typically a year. The curve provides a clear picture of the pattern of electricity usage and is used to determine the peak demand times, average energy consumption, and energy requirements during off-peak hours. This information is crucial in ensuring efficient operation of the power system and in making informed decisions about future power infrastructure investments. The load duration curve is widely used by electric utilities for resource planning, system design, and capacity expansion planning, among other things.
 
+## Functionality 
+
 This tool provides the ability to generate both load duration curves and load profile for a given load. You are required to input three files and a folder location (load data, regional capacity and output sheet). 
 
 The load duration curve helps determine seasonal patterns of electricity demand, enabling the best time for maintenance or installations. It can be adjusted by season, year, and month, providing a comprehensive understanding of demand patterns. 
 
+The "clean data" function requires further development to meet the manual cleaning standards. However, the automatic correction of zero values is currently in place. By improving the accuracy and efficiency of the "clean data" function, the quality and reliability of the data used for analysis and decision making will be ensured.
+
+The user has the option to input low, middle, and high demand test points, providing flexibility in analyzing electricity demand patterns. This allows for a more detailed understanding of the electricity usage and provides a more accurate representation of the demand.
+## Output
 ## FAQ
 
 #### What files do i need?
-
 
 the following (in order of request) are the data files you will need to run the code:
 - An CSV file with the data extracted from SCADA
@@ -20,7 +25,7 @@ you will aslo need to specify a folder/filepath where the output images can be s
 
 #### What do i input for itterations?
 
-the itterations variable refers to the itterations per hour, a variable of 12 would mean that there are 12 itterations within a 60 minute period. 12 itterations relates to a dataset of 5 minute data
+The "iterations" variable represents the sampling rate, where a value of 12 means the data is sampled 12 times per hour, yielding 5-minute data intervals. The sampling rate affects data accuracy, with a higher rate leading to more detailed analysis of electricity demand patterns. The ability to adjust the sampling rate provides flexibility in data collection and analysis.
 ## Installation
 
 Required Modules

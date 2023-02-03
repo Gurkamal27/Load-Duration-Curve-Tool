@@ -42,12 +42,12 @@ The "iterations" variable represents the sampling rate, where a value of 12 mean
 ## Installation
 
 Required Modules
--  [pandas](http://pandas.pydata.org/)
--  [numpy](http://numpy.org)
--  [matpotlib](http://matplotlib.org/)
--  [tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter)
--  [time](https://docs.python.org/3/library/time.html)
--  [datetime](https://docs.python.org/3/library/datetime.html)
+-  [pandas](http://pandas.pydata.org/) (used for its dataframe object) 
+-  [numpy](http://numpy.org) (general mathematical functions)
+-  [matpotlib](http://matplotlib.org/) (used to plot the end result) 
+-  [tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter) (used to create pop out windows for user inputs)
+-  [time](https://docs.python.org/3/library/time.html) (used to record the time taken for the program to run)
+-  [datetime](https://docs.python.org/3/library/datetime.html) (used to interpret and minipulate the dataset)
 
 ## Application User Interface
 

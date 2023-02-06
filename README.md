@@ -18,11 +18,17 @@ The user has the option to input low, middle, and high demand test points, provi
 
 ## Output (example)
 
+The output file that is gernerated is in the following format, with 11 coloumns and as many rows as loads in the dataset.
+
 |     Feeder     |  Limit | Percentage Over   Limit (%) | Time Over Limit   (hrs) |  low  |  mid  |  high |   Max  |  Min  |                                     Dates Over Limit                                    | Magnitude over   limit |
 |:--------------:|:------:|:---------------------------:|:-----------------------:|:-----:|:-----:|:-----:|:------:|:-----:|:---------------------------------------------------------------------------------------:|:----------------------:|
 | GRM_CB9_A_Amps | 115.00 | 0.57                        | 59.39                   | 64.27 | 61.80 | 59.69 | 131.62 | 34.84 | ['August 2019', 'September 2019', 'March 2020'] | 16.62                  |
 
+The first image that is saved is the load profile. This is the graphical representation of the load useage over a period of time. It can be used to show trends and patterns of comsumption, with a limit also shown to identify if the load exceds the limit. 
+
 <img src="Source/example_load_profile.png"  width="800" height="385">
+
+the second image is the load durration curve. In addtion to the load durration curve the limit, percentage at whitch limit is exceded (if exceded), and testpoint percentages (if selected) are also displayed. 
 
 <img src="Source/example_load-duration_curve.png"  width="800" height="385">
 
@@ -51,7 +57,7 @@ Required Modules
 
 ## Application User Interface
 
-When running the application you are greated with a user interface. The way the tool is configured, you are not required to input anything and the preset sampling is for 5 minuite data. Persentage testpoints and data minuipulation are not required to run the program.  
+When running the application you are greated with a user interface. The way the tool is configured, you are not required to input anything and the preset sampling is for 5 minuite data. Persentage testpoints and data minuipulation are not required to run the program. data minipulation is disabled unless one is secelected and multiple can bee selected such as Summer in 2021 or January in 2019, howerver the dates selected must exist within the data file otherwise errors will occur. 
 
 ![App Screenshot](Source/UI.PNG)
 

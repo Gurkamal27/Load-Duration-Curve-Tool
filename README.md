@@ -57,7 +57,7 @@ When running the application you are greated with a user interface.
 
 after submitting the initail perameters you are greated with several pop out windows that request you to select the required files/folders.
 
-<img src="Source/interface.PNG"  width="225" height="112.5">
+<img src="Source/interface.PNG"  width="400" height="200">
 
 ## Acknowledgements
 

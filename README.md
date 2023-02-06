@@ -47,7 +47,7 @@ you will aslo need to specify a folder/filepath where the output images can be s
 The "iterations" variable represents the sampling rate, where a value of 12 means the data is sampled 12 times per hour, yielding 5-minute data intervals. The sampling rate affects data accuracy, with a higher rate leading to more detailed analysis of electricity demand patterns. The ability to adjust the sampling rate provides flexibility in data collection and analysis.
 ## Installation
 
-Required Modules
+Required Modules, most of which should already be installed in the standard installtion of python
 -  [pandas](http://pandas.pydata.org/) (used for its dataframe object) 
 -  [numpy](http://numpy.org) (general mathematical functions)
 -  [matpotlib](http://matplotlib.org/) (used to plot the end result) 

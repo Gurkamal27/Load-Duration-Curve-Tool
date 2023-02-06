@@ -55,7 +55,7 @@ When running the application you are greated with a user interface. The way the 
 
 ![App Screenshot](Source/UI.PNG)
 
-after submitting the initail perameters you are greated with several pop out windows that request you to select the required files/folders. The red indicator shows what file to select. 
+after submitting the initail perameters you are greated with several pop out windows that request you to select the required files/folders. The red indicator shows what file to select, in this case the request is to open a .csv data file. 
 
 <img src="Source/interface.PNG"  width="800" height="385">
 

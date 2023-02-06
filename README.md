@@ -51,11 +51,11 @@ Required Modules
 
 ## Application User Interface
 
-When running the application you are greated with a user interface.
+When running the application you are greated with a user interface. The way the tool is configured, you are not required to input anything and the preset sampling is for 5 minuite data. Persentage testpoints and data minuipulation are not required to run the program.  
 
 ![App Screenshot](Source/UI.PNG)
 
-after submitting the initail perameters you are greated with several pop out windows that request you to select the required files/folders.
+after submitting the initail perameters you are greated with several pop out windows that request you to select the required files/folders. The red indicator shows what file to select. 
 
 <img src="Source/interface.PNG"  width="800" height="385">
 

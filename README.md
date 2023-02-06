@@ -51,7 +51,13 @@ Required Modules
 
 ## Application User Interface
 
+When running the application you are greated with a user interface.
+
 ![App Screenshot](Source/UI.PNG)
+
+after submitting the initail perameters you are greated with several pop out windows that request you to select the required files/folders.
+
+<img src="Source/interface.jpg"  width="225" height="112.5">
 
 ## Acknowledgements
 

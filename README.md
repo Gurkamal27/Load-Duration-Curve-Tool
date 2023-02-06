@@ -24,11 +24,11 @@ The output file that is gernerated is in the following format, with 11 coloumns 
 |:--------------:|:------:|:---------------------------:|:-----------------------:|:-----:|:-----:|:-----:|:------:|:-----:|:---------------------------------------------------------------------------------------:|:----------------------:|
 | GRM_CB9_A_Amps | 115.00 | 0.57                        | 59.39                   | 64.27 | 61.80 | 59.69 | 131.62 | 34.84 | ['August 2019', 'September 2019', 'March 2020'] | 16.62                  |
 
-The first image that is saved is the load profile. This is the graphical representation of the load useage over a period of time. It can be used to show trends and patterns of comsumption, with a limit also shown to identify if the load exceds the limit. 
+The first image saved is the Load Profile, a graphical representation of load usage over a period of time. It shows consumption trends and patterns, with a limit indicated to determine if the load exceeds the limit.
 
 <img src="Source/example_load_profile.png"  width="800" height="385">
 
-the second image is the load durration curve. In addtion to the load durration curve the limit, percentage at whitch limit is exceded (if exceded), and testpoint percentages (if selected) are also displayed. 
+The second image is the Load Duration Curve, which displays the limit, the percentage at which the limit is exceeded (if exceeded), and the testpoint percentages (if selected).
 
 <img src="Source/example_load-duration_curve.png"  width="800" height="385">
 
@@ -40,11 +40,12 @@ the following (in order of request) are the data files you will need to run the 
 - An CSV file with the data extracted from SCADA
 - An excel file with the Regional Capacity Capability
 - An excel file where the output can be exported (original content will be deleted)
-you will aslo need to specify a folder/filepath where the output images can be saved.
+Additionally, you will need to specify a folder/file path to save the output images.
 
 #### What do i input for itterations?
 
 The "iterations" variable represents the sampling rate, where a value of 12 means the data is sampled 12 times per hour, yielding 5-minute data intervals. The sampling rate affects data accuracy, with a higher rate leading to more detailed analysis of electricity demand patterns. The ability to adjust the sampling rate provides flexibility in data collection and analysis.
+
 ## Installation
 
 Required Modules, most of which should already be installed in the standard installtion of python
@@ -57,11 +58,11 @@ Required Modules, most of which should already be installed in the standard inst
 
 ## Application User Interface
 
-When running the application you are greated with a user interface. The way the tool is configured, you are not required to input anything and the preset sampling is for 5 minuite data. Persentage testpoints and data minuipulation are not required to run the program. data minipulation is disabled unless one is secelected and multiple can bee selected such as Summer in 2021 or January in 2019, howerver the dates selected must exist within the data file otherwise errors will occur. 
+Upon launching the application, you'll be presented with a user-friendly interface. The tool is set up so that no input is required and the default sampling is set to 5-minute data. Percentage testpoints and data manipulation are not necessary to run the program. Data manipulation is only enabled if a specific option is selected, such as "Summer in 2021" or "January in 2019." However, it's important to note that the chosen dates must be present in the data file, or errors may occur.
 
 ![App Screenshot](Source/UI.PNG)
 
-after submitting the initail perameters you are greated with several pop out windows that request you to select the required files/folders. The red indicator shows what file to select, in this case the request is to open a .csv data file. 
+After entering the initial parameters, you'll be presented with several pop-up windows requesting file/folder selections. The red indicator shows where the pop-up will indicate what needs to be selected, in this case, it will indicate a .csv data file.
 
 <img src="Source/interface.PNG"  width="800" height="385">
 

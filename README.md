@@ -69,7 +69,7 @@ Upon launching the application, you'll be presented with a user-friendly interfa
 
 After entering the initial parameters, you'll be presented with several pop-up windows requesting file/folder selections. The red indicator shows where the pop-up will indicate what needs to be selected, in this case, it will indicate a .csv data file.
 
-<img src="Source/interface.PNG"  width="800" height="385">
+<img src="Source/interface.PNG"  width="800" height="425">
 
 ## Acknowledgements
 

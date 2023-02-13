@@ -32,7 +32,7 @@ The second image is the Load Duration Curve, which displays the limit, the perce
 
 <img src="Source/example_load-duration_curve.png"  width="800" height="385">
 
-## Exporting Data
+## Exporting Load Duration curve
 You can easily select the option to export the raw data of the Load Duration curve from the pop-up menu. Simply specify the desired output file, and the data will be securely exported for your use upon completion.
 
 ## FAQ

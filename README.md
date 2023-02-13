@@ -44,6 +44,7 @@ the following (in order of request) are the data files you will need to run the 
 - An excel file with the Regional Capacity Capability
 - An excel file where the output can be exported (original content will be deleted)
 - An CSV output file for exporting the Load Duration curve (only if option selected)
+
 Additionally, you will need to specify a folder/file path to save the output images.
 
 #### What do i input for itterations?

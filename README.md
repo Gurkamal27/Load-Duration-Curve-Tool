@@ -32,7 +32,7 @@ The second image is the Load Duration Curve, which displays the limit, the perce
 
 <img src="Source/example_load-duration_curve.png"  width="800" height="385">
 
-## Exporting Data
+## Exporting Load Duration curve
 You can easily select the option to export the raw data of the Load Duration curve from the pop-up menu. Simply specify the desired output file, and the data will be securely exported for your use upon completion.
 
 ## FAQ
@@ -43,6 +43,8 @@ the following (in order of request) are the data files you will need to run the 
 - An CSV file with the data extracted from SCADA
 - An excel file with the Regional Capacity Capability
 - An excel file where the output can be exported (original content will be deleted)
+- An CSV output file for exporting the Load Duration curve (only if option selected)
+
 Additionally, you will need to specify a folder/file path to save the output images.
 
 #### What do i input for itterations?
@@ -67,7 +69,7 @@ Upon launching the application, you'll be presented with a user-friendly interfa
 
 After entering the initial parameters, you'll be presented with several pop-up windows requesting file/folder selections. The red indicator shows where the pop-up will indicate what needs to be selected, in this case, it will indicate a .csv data file.
 
-<img src="Source/interface.PNG"  width="800" height="385">
+<img src="Source/interface.PNG"  width="800" height="425">
 
 ## Acknowledgements
 
